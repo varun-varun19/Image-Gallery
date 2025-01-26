@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", 'serif';
+    background-color: bisque;
+}
+
+.header{
+    text-align: center;
+    border-bottom: 5px solid gray;
+    width: 500px;
+    margin-left: 500px;
+    padding: 10px;
+}
+
+.Image-container img{
+    width: 200px;
+    height: 350px;
+    flex-basis: 20%;
+    
+}
+
+.Image-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 10px;
+    gap: 10px;
+}
